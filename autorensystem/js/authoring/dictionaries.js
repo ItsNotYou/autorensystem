@@ -4,6 +4,7 @@
 
 // translate context information into german
 var contextInfoDictionary = {
+    "CI_AVAILABLE_NTP" : "NTP verfügbar",
     "CI_SUPPORT_KEYWORD" : "Support-Stichwort",
     "CI_CURRENT_LEARNING_UNIT" : "Momentane Lerneinheit",
     "CI_FINISHED_LEARNING_UNIT" : "Lerneinheit abgeschlossen",
@@ -70,6 +71,7 @@ var contextOperatorDictionary = {
 };
 
 var contextParameterDictionary = {
+    "CP_CONNECTION_TYPE" : "Verbindungstyp",
     "CP_ACTION_START_TIMESTAMP" : "Startzeit",
     "CP_ACTION_END_TIMESTAMP" : "Endzeit",
     "CP_ACTION_REFERNCED_LEARNING_NUGGET" : "Referenzierte Lerneinheit",
@@ -114,6 +116,8 @@ var contextValueDictionary = {
 };
 
 var contextParameterValueDictionary = {
+    "CONNECTION_WIFI" : "WLAN",
+    "CONNECTION_CELL" : "Mobilfunk",
     "BAR" : "Bar",
     "MILLIMETER_OF_MERCURY" : "Millimeter in Quecksilbersäule",
     "PASCAL" : "Pascal",
@@ -192,6 +196,7 @@ var contextIconSrcDictionary = {
     "CI_TIME_UNTIL_TIMESTAMP" : "img/icons-context-information/ci-situational-timeduration.png",
 
     // technical (Infrastruktur)
+    "CI_AVAILABLE_NTP" : "img/icons-context-information/ci-technical-available-ntp.png",
     "CI_AUDIO_OUTPUT_AVAILABLE" : "img/icons-context-information/ci-technical-audio-available.png",
     "CI_DEVICE_TYPE" : "img/icons-context-information/ci-technical-device-type.png",
     "CI_DISPLAY_RESOLUTION" : "img/icons-context-information/ci-technical-display-resolution.png",

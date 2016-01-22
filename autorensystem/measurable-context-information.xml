@@ -802,4 +802,26 @@
 			</operators>
 		</contextValue>
 	</information>
+	<information id="CI_AVAILABLE_NTP">
+		<contextClasses>
+			<contextClass id="CC_TECHNICAL" />
+		</contextClasses>
+		<contextValue type="BOOLEAN">
+			<operators>
+				<operator id="IS" />
+				<operator id="IS_NOT" />
+				<operator id="NO_VALUE" />
+			</operators>
+		</contextValue>
+		<parameters>
+			<parameter id="CP_CONNECTION_TYPE">
+				<parameterValue type="ENUM">
+					<possibleValues>
+						<value>CONNECTION_WIFI</value>
+						<value>CONNECTION_CELL</value>
+					</possibleValues>
+				</parameterValue>
+			</parameter>
+		</parameters>
+	</information>
 </contextInformation>
