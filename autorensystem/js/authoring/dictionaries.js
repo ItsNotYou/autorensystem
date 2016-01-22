@@ -4,6 +4,7 @@
 
 // translate context information into german
 var contextInfoDictionary = {
+    "CI_SUPPORT_KEYWORD" : "Support-Stichwort",
     "CI_CURRENT_LEARNING_UNIT" : "Momentane Lerneinheit",
     "CI_FINISHED_LEARNING_UNIT" : "Lerneinheit abgeschlossen",
     "CI_USER_DID_PERFORM_ACTION" : "Benutzer (Aktion)",
@@ -185,6 +186,7 @@ var contextIconSrcDictionary = {
     "CI_USER_STATE_OF_MIND" : "img/icons-context-information/ci-personal-user-state-of-mind.png",
 
     // situational (Situationsbezogen)
+    "CI_SUPPORT_KEYWORD" : "img/icons-context-information/ci-situational-support.png",
     "CI_CURRENT_APPOINTMENT" : "img/icons-context-information/ci-situational-appointment.png",
     "CI_NEXT_APPOINTMENT" : "img/icons-context-information/ci-situational-appointment.png",
     "CI_TIME_UNTIL_TIMESTAMP" : "img/icons-context-information/ci-situational-timeduration.png",
