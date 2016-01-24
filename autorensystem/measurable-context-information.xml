@@ -824,4 +824,24 @@
 			</parameter>
 		</parameters>
 	</information>
+	<information id="CI_WIFI_UI">
+		<contextClasses>
+			<contextClass id="CC_TECHNICAL" />
+		</contextClasses>
+		<contextValue type="ENUM">
+			<operators>
+				<operator id="CONTAINS" />
+				<operator id="IS" />
+				<operator id="IS_NOT" />
+				<operator id="NO_VALUE" />
+			</operators>
+			<possibleValues>
+				<value>Galaxy-S4-Android-5</value>
+				<value>Galaxy-S6-edge-Android-5</value>
+				<value>Galaxy-Nexus-Android-4</value>
+				<value>Rainbow-Jam-Android-5</value>
+				<value>Unknown-device</value>
+			</possibleValues>
+		</contextValue>
+	</information>
 </contextInformation>

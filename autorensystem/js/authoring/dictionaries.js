@@ -4,6 +4,7 @@
 
 // translate context information into german
 var contextInfoDictionary = {
+    "CI_WIFI_UI" : "Stil des WLAN-UI",
     "CI_AVAILABLE_NTP" : "NTP verfügbar",
     "CI_SUPPORT_KEYWORD" : "Support-Stichwort",
     "CI_CURRENT_LEARNING_UNIT" : "Momentane Lerneinheit",
@@ -93,6 +94,11 @@ var contextParameterDictionary = {
 };
 
 var contextValueDictionary = {
+    "Galaxy-S4-Android-5" : "Samsung Galaxy S4, Android 5",
+    "Galaxy-S6-edge-Android-5" : "Samsung Galaxy S6 edge, Android 5",
+    "Galaxy-Nexus-Android-4" : "Samsung Galaxy Nexus, Android 4",
+    "Rainbow-Jam-Android-5" : "Wiko Rainbow Jam, Android 5",
+    "Unknown-device" : "Unbekannt",
     "ACTIVATE_ACTION" : "aktiviert",
     "CHOOSE_ACTION" : "wählt",
     "DEACTIVATE_ACTION" : "deaktiviert",
@@ -196,6 +202,7 @@ var contextIconSrcDictionary = {
     "CI_TIME_UNTIL_TIMESTAMP" : "img/icons-context-information/ci-situational-timeduration.png",
 
     // technical (Infrastruktur)
+    "CI_WIFI_UI" : "img/icons-context-information/ci-technical-wifi-ui.png",
     "CI_AVAILABLE_NTP" : "img/icons-context-information/ci-technical-available-ntp.png",
     "CI_AUDIO_OUTPUT_AVAILABLE" : "img/icons-context-information/ci-technical-audio-available.png",
     "CI_DEVICE_TYPE" : "img/icons-context-information/ci-technical-device-type.png",
