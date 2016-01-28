@@ -4,6 +4,7 @@
 
 // translate context information into german
 var contextInfoDictionary = {
+    "CI_NTP_REQUIRED" : "NTP benötigt",
     "CI_AVAILABLE_DEVICE" : "Thermo-Gerät verfügbar",
     "CI_WIFI_UI" : "Stil des WLAN-UI",
     "CI_AVAILABLE_NTP" : "NTP verfügbar",
@@ -200,6 +201,7 @@ var contextIconSrcDictionary = {
     "CI_USER_STATE_OF_MIND" : "img/icons-context-information/ci-personal-user-state-of-mind.png",
 
     // situational (Situationsbezogen)
+    "CI_NTP_REQUIRED" : "img/icons-context-information/ci-situational-ntp-required.png",
     "CI_SUPPORT_KEYWORD" : "img/icons-context-information/ci-situational-support.png",
     "CI_CURRENT_APPOINTMENT" : "img/icons-context-information/ci-situational-appointment.png",
     "CI_NEXT_APPOINTMENT" : "img/icons-context-information/ci-situational-appointment.png",

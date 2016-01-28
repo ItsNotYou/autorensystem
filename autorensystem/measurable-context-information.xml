@@ -866,4 +866,16 @@
 			</parameter>
 		</parameters>
 	</information>
+	<information id="CI_NTP_REQUIRED">
+		<contextClasses>
+			<contextClass id="CC_SITUATIONAL" />
+		</contextClasses>
+		<contextValue type="BOOLEAN">
+			<operators>
+				<operator id="IS" />
+				<operator id="IS_NOT" />
+				<operator id="NO_VALUE" />
+			</operators>
+		</contextValue>
+	</information>
 </contextInformation>
