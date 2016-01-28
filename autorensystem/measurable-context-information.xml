@@ -844,4 +844,26 @@
 			</possibleValues>
 		</contextValue>
 	</information>
+	<information id="CI_AVAILABLE_DEVICE">
+		<contextClasses>
+			<contextClass id="CC_TECHNICAL" />
+		</contextClasses>
+		<contextValue type="BOOLEAN">
+			<operators>
+				<operator id="IS" />
+				<operator id="IS_NOT" />
+				<operator id="NO_VALUE" />
+			</operators>
+		</contextValue>
+		<parameters>
+			<parameter id="CP_DEVICE">
+				<parameterValue type="ENUM">
+					<possibleValues>
+						<value>CONTROLLER</value>
+						<value>ROUTER</value>
+					</possibleValues>
+				</parameterValue>
+			</parameter>
+		</parameters>
+	</information>
 </contextInformation>
