@@ -861,6 +861,7 @@
 					<possibleValues>
 						<value>CONTROLLER</value>
 						<value>ROUTER</value>
+						<value>TROVIS_5573</value>
 					</possibleValues>
 				</parameterValue>
 			</parameter>
