@@ -125,6 +125,7 @@ var contextValueDictionary = {
 };
 
 var contextParameterValueDictionary = {
+    "TROVIS_5573" : "Trovis 5573",
     "CONTROLLER" : "Controller",
     "ROUTER" : "FritzBox",
     "CONNECTION_WIFI" : "WLAN",
