@@ -4,6 +4,8 @@
 
 // translate context information into german
 var contextInfoDictionary = {
+    "CI_TROVIS_CONNECTED" : "Trovis zu Pi",
+    "CI_TIME_CORRECT" : "korrekte Zeit",
     "CI_NTP_REQUIRED" : "NTP benötigt",
     "CI_AVAILABLE_DEVICE" : "Thermo-Gerät verfügbar",
     "CI_WIFI_UI" : "Stil des WLAN-UI",
