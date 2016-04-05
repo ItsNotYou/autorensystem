@@ -3,13 +3,13 @@ var _d = new _contactJS.Discoverer();
 
 var _rules = [
 	{
-		"id": "ce84b77c-2c65-425a-b54a-dad9fd975bd1",
+		"id": "ffac7bbf-dfaf-4b56-aa44-02627aa4fd1a",
 		"relatedContextInformation": [
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_FINISHED_LEARNING_UNIT", type: "STRING", parameterList: []}),
-_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_TROVIS", type: "BOOLEAN", parameterList: []}),
+_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_DEVICE", type: "BOOLEAN", parameterList: [["CP_DEVICE", "STRING", "TROVIS_5573"]]}),
 ],
 		"condition": function(R) {
-			R.when((this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_FINISHED_LEARNING_UNIT", type: "STRING", parameterList: []}), "==", "unit41cafe05-2892-4af2-8eae-f107fb8217e4")) && (this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_TROVIS", type: "BOOLEAN", parameterList: []}), "==", "true")));
+			R.when((this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_FINISHED_LEARNING_UNIT", type: "STRING", parameterList: []}), "==", "unit41cafe05-2892-4af2-8eae-f107fb8217e4")) && (this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_DEVICE", type: "BOOLEAN", parameterList: [["CP_DEVICE", "STRING", "TROVIS_5573"]]}), "==", "true")));
 		},
 		"consequence": function(R) {
 			if (typeof window["ruleEngine"]._callbacks["selectLearningUnitCallback"] != "undefined") {
@@ -19,7 +19,7 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_A
 		}
 	},
 	{
-		"id": "b2b80e9b-f3df-405f-8a60-8c0686734445",
+		"id": "afe50018-ff41-4df8-9321-d83c6f8f9017",
 		"relatedContextInformation": [
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_CURRENT_LEARNING_UNIT", type: "STRING", parameterList: []}),
 ],
@@ -34,7 +34,7 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_C
 		}
 	},
 	{
-		"id": "4cc9b15b-e78b-4196-8ef6-e4838f6c24f2",
+		"id": "1e1fe58b-54f8-45c5-b3ab-1fa663072ff4",
 		"relatedContextInformation": [
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_NTP", type: "BOOLEAN", parameterList: [["CP_CONNECTION_TYPE", "STRING", "CONNECTION_CELL"]]}),
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_NTP_REQUIRED", type: "BOOLEAN", parameterList: []}),
@@ -50,7 +50,7 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_N
 		}
 	},
 	{
-		"id": "290a236b-d73e-4daa-a9cf-8f15de74ce5a",
+		"id": "f98b4a3d-56d8-45b4-9edc-49ab35065193",
 		"relatedContextInformation": [
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_TIME", type: "BOOLEAN", parameterList: []}),
 ],
@@ -65,7 +65,7 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_T
 		}
 	},
 	{
-		"id": "f3899a60-4ad2-454d-ba24-5aead77d1c11",
+		"id": "d3a92bc1-4253-4250-a120-3f4e1e10d894",
 		"relatedContextInformation": [
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_FINISHED_LEARNING_UNIT", type: "STRING", parameterList: []}),
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_TIME", type: "BOOLEAN", parameterList: []}),
@@ -81,7 +81,7 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_T
 		}
 	},
 	{
-		"id": "7efd0137-ec3f-4e4a-a06b-05af870cb6bb",
+		"id": "0669be99-c9e6-432f-8c5a-4bd8c603be03",
 		"relatedContextInformation": [
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_CURRENT_LEARNING_UNIT", type: "STRING", parameterList: []}),
 ],
@@ -96,12 +96,12 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_C
 		}
 	},
 	{
-		"id": "5f0b6b97-28b3-4636-863f-12761e55a4c5",
+		"id": "80f54bd3-2b7d-4cbd-806f-cb79e7c79213",
 		"relatedContextInformation": [
-_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_TROVIS", type: "BOOLEAN", parameterList: []}),
+_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_DEVICE", type: "BOOLEAN", parameterList: [["CP_DEVICE", "STRING", "TROVIS_5573"]]}),
 ],
 		"condition": function(R) {
-			R.when((this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_TROVIS", type: "BOOLEAN", parameterList: []}), "==", "false")));
+			R.when((this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_DEVICE", type: "BOOLEAN", parameterList: [["CP_DEVICE", "STRING", "TROVIS_5573"]]}), "==", "false")));
 		},
 		"consequence": function(R) {
 			if (typeof window["ruleEngine"]._callbacks["selectLearningUnitCallback"] != "undefined") {
@@ -111,13 +111,13 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_A
 		}
 	},
 	{
-		"id": "8e3bb3d1-622e-4cbd-ab3f-499f8b5972dc",
+		"id": "f69236b3-fc56-409c-bd44-26f6c9bbcfff",
 		"relatedContextInformation": [
-_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_NTP_REQUIRED", type: "BOOLEAN", parameterList: []}),
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_NTP", type: "BOOLEAN", parameterList: [["CP_CONNECTION_TYPE", "STRING", "CONNECTION_WIFI"]]}),
+_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_NTP_REQUIRED", type: "BOOLEAN", parameterList: []}),
 ],
 		"condition": function(R) {
-			R.when((this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_NTP_REQUIRED", type: "BOOLEAN", parameterList: []}), "==", "true") && this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_NTP", type: "BOOLEAN", parameterList: [["CP_CONNECTION_TYPE", "STRING", "CONNECTION_WIFI"]]}), "==", "false")));
+			R.when((this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_NTP", type: "BOOLEAN", parameterList: [["CP_CONNECTION_TYPE", "STRING", "CONNECTION_WIFI"]]}), "==", "false") && this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_NTP_REQUIRED", type: "BOOLEAN", parameterList: []}), "==", "true")));
 		},
 		"consequence": function(R) {
 			if (typeof window["ruleEngine"]._callbacks["selectLearningUnitCallback"] != "undefined") {
@@ -127,12 +127,12 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_A
 		}
 	},
 	{
-		"id": "6c30a770-1e81-4086-87f8-9a4f8c90decc",
+		"id": "e33bc423-9d07-4612-b1eb-002e7e358039",
 		"relatedContextInformation": [
-_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_DEVICE", type: "BOOLEAN", parameterList: [["CP_DEVICE", "STRING", "TROVIS_5573"]]}),
+_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_TROVIS", type: "BOOLEAN", parameterList: []}),
 ],
 		"condition": function(R) {
-			R.when((this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_DEVICE", type: "BOOLEAN", parameterList: [["CP_DEVICE", "STRING", "TROVIS_5573"]]}), "==", "false")));
+			R.when((this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_TROVIS", type: "BOOLEAN", parameterList: []}), "!=", "true")));
 		},
 		"consequence": function(R) {
 			if (typeof window["ruleEngine"]._callbacks["selectLearningUnitCallback"] != "undefined") {
@@ -142,13 +142,13 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_A
 		}
 	},
 	{
-		"id": "d0b2dff8-19ef-495e-9a8f-d41824f557d7",
+		"id": "a7a622d5-28c0-4120-963a-917be42f8b0d",
 		"relatedContextInformation": [
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_FINISHED_LEARNING_UNIT", type: "STRING", parameterList: []}),
-_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_DEVICE", type: "BOOLEAN", parameterList: [["CP_DEVICE", "STRING", "TROVIS_5573"]]}),
+_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_TROVIS", type: "BOOLEAN", parameterList: []}),
 ],
 		"condition": function(R) {
-			R.when((this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_FINISHED_LEARNING_UNIT", type: "STRING", parameterList: []}), "==", "unit462333bc-d90e-4195-8718-b92ec1949945")) && (this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_DEVICE", type: "BOOLEAN", parameterList: [["CP_DEVICE", "STRING", "TROVIS_5573"]]}), "==", "true")));
+			R.when((this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_FINISHED_LEARNING_UNIT", type: "STRING", parameterList: []}), "==", "unit462333bc-d90e-4195-8718-b92ec1949945")) && (this.fulfils(_contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_TROVIS", type: "BOOLEAN", parameterList: []}), "==", "true")));
 		},
 		"consequence": function(R) {
 			if (typeof window["ruleEngine"]._callbacks["selectLearningUnitCallback"] != "undefined") {
@@ -158,7 +158,7 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_A
 		}
 	},
 	{
-		"id": "7554e6d2-ac3d-482a-bfe6-22c5490612d4",
+		"id": "bd9353a1-b91a-4e4c-ac5c-dbe9d5d74d2f",
 		"relatedContextInformation": [
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_CURRENT_LEARNING_UNIT", type: "STRING", parameterList: []}),
 ],
@@ -173,7 +173,7 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_C
 		}
 	},
 	{
-		"id": "75cd3a3c-d9a3-4426-a1b9-b0378ebec29f",
+		"id": "1ace0772-4e83-40f4-8a66-c16b546b2b4b",
 		"relatedContextInformation": [
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_NTP", type: "BOOLEAN", parameterList: [["CP_CONNECTION_TYPE", "STRING", "CONNECTION_CELL"]]}),
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_NTP_REQUIRED", type: "BOOLEAN", parameterList: []}),
@@ -189,7 +189,7 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_N
 		}
 	},
 	{
-		"id": "228a6005-18fe-47ff-8723-2b4202c83963",
+		"id": "5d9d7704-595d-4f3e-934b-1a806c5143d2",
 		"relatedContextInformation": [
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_FINISHED_LEARNING_UNIT", type: "STRING", parameterList: []}),
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_NTP", type: "BOOLEAN", parameterList: [["CP_CONNECTION_TYPE", "STRING", "CONNECTION_WIFI"]]}),
@@ -205,7 +205,7 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_A
 		}
 	},
 	{
-		"id": "94c8f749-dca0-4463-991e-076ff69357cd",
+		"id": "36d6dd4e-f9c5-4581-bed2-06653e1511b5",
 		"relatedContextInformation": [
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_CURRENT_LEARNING_UNIT", type: "STRING", parameterList: []}),
 ],
@@ -220,7 +220,7 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_C
 		}
 	},
 	{
-		"id": "1298e156-8d89-47f8-ac06-6bfd34b95f50",
+		"id": "46d4c89a-7a92-4022-b727-81d01f9e247a",
 		"relatedContextInformation": [
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_FINISHED_LEARNING_UNIT", type: "STRING", parameterList: []}),
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_AVAILABLE_NTP", type: "BOOLEAN", parameterList: [["CP_CONNECTION_TYPE", "STRING", "CONNECTION_CELL"]]}),
@@ -236,7 +236,7 @@ _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_A
 		}
 	},
 	{
-		"id": "94167d62-6d3c-44d4-a3c3-c06642d172c5",
+		"id": "9b6e8eda-c98e-4412-843d-36e4c3b6e247",
 		"relatedContextInformation": [
 _contactJS.ContextInformation.fromContextInformationDescription(_d, {name: "CI_CURRENT_LEARNING_UNIT", type: "STRING", parameterList: []}),
 ],
