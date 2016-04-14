@@ -5,6 +5,7 @@
 // translate context information into german
 var contextInfoDictionary = {
     "CI_AVAILABLE_DEVICES" : "Gerät ist erreichbar",
+    "CI_WIFI_ENABLED" : "WLAN ist aktiviert",
     "CI_TIME" : "korrekte Zeit",
     "CI_NTP_REQUIRED" : "NTP benötigt",
     "CI_WIFI_UI" : "Stil des WLAN-UI",
@@ -212,6 +213,7 @@ var contextIconSrcDictionary = {
     "CI_TIME_UNTIL_TIMESTAMP" : "img/icons-context-information/ci-situational-timeduration.png",
 
     // technical (Infrastruktur)
+    "CI_WIFI_ENABLED" : "img/icons-context-information/ci-technical-default.png",
     "CI_AVAILABLE_DEVICES" : "img/icons-context-information/ci-technical-available-device.png",
     "CI_WIFI_UI" : "img/icons-context-information/ci-technical-wifi-ui.png",
     "CI_AVAILABLE_NTP" : "img/icons-context-information/ci-technical-available-ntp.png",

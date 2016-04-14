@@ -262,7 +262,6 @@
 				<value>TABLET_COMPUTER</value>
 				<value>SMARTPHONE</value>
 				<value>SMARTWATCH</value>
-				<value></value>
 			</possibleValues>
 		</contextValue>
 	</information>
