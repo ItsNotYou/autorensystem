@@ -7,7 +7,7 @@ var contextInfoDictionary = {
     "CI_AVAILABLE_TROVIS" : "Trovis zu Pi",
     "CI_TIME" : "korrekte Zeit",
     "CI_NTP_REQUIRED" : "NTP benötigt",
-    "CI_AVAILABLE_DEVICE" : "Thermo-Gerät verfügbar",
+    "CI_AVAILABLE_PI" : "RaspberryPi erreichbar",
     "CI_WIFI_UI" : "Stil des WLAN-UI",
     "CI_AVAILABLE_NTP" : "NTP verfügbar",
     "CI_SUPPORT_KEYWORD" : "Support-Stichwort",
@@ -213,7 +213,7 @@ var contextIconSrcDictionary = {
     "CI_TIME_UNTIL_TIMESTAMP" : "img/icons-context-information/ci-situational-timeduration.png",
 
     // technical (Infrastruktur)
-    "CI_AVAILABLE_DEVICE" : "img/icons-context-information/ci-technical-available-device.png",
+    "CI_AVAILABLE_PI" : "img/icons-context-information/ci-technical-available-device.png",
     "CI_WIFI_UI" : "img/icons-context-information/ci-technical-wifi-ui.png",
     "CI_AVAILABLE_NTP" : "img/icons-context-information/ci-technical-available-ntp.png",
     "CI_AUDIO_OUTPUT_AVAILABLE" : "img/icons-context-information/ci-technical-audio-available.png",

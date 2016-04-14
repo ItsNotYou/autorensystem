@@ -844,7 +844,7 @@
 			</possibleValues>
 		</contextValue>
 	</information>
-	<information id="CI_AVAILABLE_DEVICE">
+	<information id="CI_AVAILABLE_PI">
 		<contextClasses>
 			<contextClass id="CC_TECHNICAL" />
 		</contextClasses>
