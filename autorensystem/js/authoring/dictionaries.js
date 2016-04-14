@@ -4,10 +4,9 @@
 
 // translate context information into german
 var contextInfoDictionary = {
-    "CI_AVAILABLE_TROVIS" : "Trovis kommuniziert mit dem Pi",
+    "CI_AVAILABLE_DEVICES" : "Gerät ist erreichbar",
     "CI_TIME" : "korrekte Zeit",
     "CI_NTP_REQUIRED" : "NTP benötigt",
-    "CI_AVAILABLE_PI" : "RaspberryPi erreichbar",
     "CI_WIFI_UI" : "Stil des WLAN-UI",
     "CI_AVAILABLE_NTP" : "NTP verfügbar",
     "CI_SUPPORT_KEYWORD" : "Support-Stichwort",
