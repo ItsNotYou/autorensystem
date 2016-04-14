@@ -844,7 +844,7 @@
 			</possibleValues>
 		</contextValue>
 	</information>
-	<information id="CI_AVAILABLE_PI">
+	<information id="CI_AVAILABLE_DEVICES">
 		<contextClasses>
 			<contextClass id="CC_TECHNICAL" />
 		</contextClasses>
@@ -861,7 +861,8 @@
 					<possibleValues>
 						<value>CONTROLLER</value>
 						<value>ROUTER</value>
-						<value>TROVIS_5573</value>
+						<value>TROVIS</value>
+						<value>RASPBERRY_PI</value>
 					</possibleValues>
 				</parameterValue>
 			</parameter>
@@ -880,18 +881,6 @@
 		</contextValue>
 	</information>
 	<information id="CI_TIME">
-		<contextClasses>
-			<contextClass id="CC_SITUATIONAL" />
-		</contextClasses>
-		<contextValue type="BOOLEAN">
-			<operators>
-				<operator id="IS" />
-				<operator id="IS_NOT" />
-				<operator id="NO_VALUE" />
-			</operators>
-		</contextValue>
-	</information>
-	<information id="CI_AVAILABLE_TROVIS">
 		<contextClasses>
 			<contextClass id="CC_SITUATIONAL" />
 		</contextClasses>

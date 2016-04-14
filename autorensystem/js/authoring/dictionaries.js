@@ -4,7 +4,7 @@
 
 // translate context information into german
 var contextInfoDictionary = {
-    "CI_AVAILABLE_TROVIS" : "Trovis zu Pi",
+    "CI_AVAILABLE_TROVIS" : "Trovis kommuniziert mit dem Pi",
     "CI_TIME" : "korrekte Zeit",
     "CI_NTP_REQUIRED" : "NTP benötigt",
     "CI_AVAILABLE_PI" : "RaspberryPi erreichbar",
@@ -127,9 +127,10 @@ var contextValueDictionary = {
 };
 
 var contextParameterValueDictionary = {
-    "TROVIS_5573" : "Trovis 5573",
+    "TROVIS" : "Trovis5573",
     "CONTROLLER" : "Controller",
-    "ROUTER" : "FritzBox",
+    "ROUTER" : "Router",
+    "RASPBERRY_PI" : "Raspberry Pi",
     "CONNECTION_WIFI" : "WLAN",
     "CONNECTION_CELL" : "Mobilfunk",
     "BAR" : "Bar",
@@ -204,7 +205,6 @@ var contextIconSrcDictionary = {
     "CI_USER_STATE_OF_MIND" : "img/icons-context-information/ci-personal-user-state-of-mind.png",
 
     // situational (Situationsbezogen)
-    "CI_AVAILABLE_TROVIS" : "img/icons-context-information/ci-situational-available-trovis",
     "CI_TIME" : "img/icons-context-information/ci-situational-time-correct",
     "CI_NTP_REQUIRED" : "img/icons-context-information/ci-situational-ntp-required.png",
     "CI_SUPPORT_KEYWORD" : "img/icons-context-information/ci-situational-support.png",
@@ -213,7 +213,7 @@ var contextIconSrcDictionary = {
     "CI_TIME_UNTIL_TIMESTAMP" : "img/icons-context-information/ci-situational-timeduration.png",
 
     // technical (Infrastruktur)
-    "CI_AVAILABLE_PI" : "img/icons-context-information/ci-technical-available-device.png",
+    "CI_AVAILABLE_DEVICES" : "img/icons-context-information/ci-technical-available-device.png",
     "CI_WIFI_UI" : "img/icons-context-information/ci-technical-wifi-ui.png",
     "CI_AVAILABLE_NTP" : "img/icons-context-information/ci-technical-available-ntp.png",
     "CI_AUDIO_OUTPUT_AVAILABLE" : "img/icons-context-information/ci-technical-audio-available.png",
