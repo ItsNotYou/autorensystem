@@ -127,7 +127,7 @@ var contextValueDictionary = {
 };
 
 var contextParameterValueDictionary = {
-    "TROVIS" : "Trovis5573",
+    "TROVIS" : "Trovis 5573",
     "CONTROLLER" : "Controller",
     "ROUTER" : "Router",
     "RASPBERRY_PI" : "Raspberry Pi",

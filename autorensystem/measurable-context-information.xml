@@ -890,5 +890,14 @@
 				<operator id="NO_VALUE" />
 			</operators>
 		</contextValue>
+		<parameters>
+			<parameter id="CP_DEVICE">
+				<parameterValue type="ENUM">
+					<possibleValues>
+						<value>TROVIS</value>
+					</possibleValues>
+				</parameterValue>
+			</parameter>
+		</parameters>
 	</information>
 </contextInformation>
